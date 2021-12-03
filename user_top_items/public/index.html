@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Example of the Authorization Code flow with Spotify</title>
+    <title>Spotify Project</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <style type="text/css">
       #login, #loggedin {
@@ -14,6 +14,7 @@
         width: 500px;
       }
     </style>
+    <script src="app.js" defer></script>
   </head>
 
   <body>
@@ -46,10 +47,10 @@
             <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
             <dt>Profile Image</dt><dd class="clearfix"><a href="{{images.0.url}}">{{images.0.url}}</a></dd>
             <dt>Country</dt><dd>{{country}}</dd>
-            <dt>top item</dt><dd>{{top_items.0}}</dd>
           </dl>
         </div>
       </div>
+      <div id=’rick-and-morty-characters’></div>
     </script>
 
     <script id="oauth-template" type="text/x-handlebars-template">
@@ -140,3 +141,4 @@
     </script>
   </body>
 </html>
+
